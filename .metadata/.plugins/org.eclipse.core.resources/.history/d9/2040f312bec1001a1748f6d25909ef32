@@ -1,0 +1,16 @@
+package Newstudy01;
+
+public class Game {
+
+	public static void main(String[] args) {
+		//创建一个英雄角色
+		Hero hero = new Hero();
+		hero.setName("剑圣");
+		hero.setAge(18);
+		
+		//创建武器
+		Weapon wp =new Weapon("剑圣风暴");
+		hero.setWeapon(wp);
+		hero.attack();
+	}
+}

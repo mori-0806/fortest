@@ -1,0 +1,18 @@
+
+public class method {
+
+	static void dowork()
+	{
+		System.out.println("¤è¤í¤·¤¯¤ªîŠ¤¤¤¤¤¿¤·¤Þ¤¹¡£");
+	}
+	
+	public static void main(String[] args)
+	{
+		System.out.println("A");
+		method.dowork();
+		method.dowork();
+		method.dowork();
+  
+	}
+
+}

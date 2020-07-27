@@ -1,0 +1,24 @@
+package Thread;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class TimeTask {   
+   
+    public static void main(String[] args) { 
+        TimeTask tTask=new TimeTask();
+        tTask.timeVoid();
+    }
+    
+    public void timeVoid(){
+        final Timer timer = new Timer();
+        TimerTask tt=new TimerTask() { 
+            @Override
+            public void run() {
+                System.out.println("µΩµ„¿≤£°");
+                timer.cancel();
+            }
+        };
+        timer.schedule(tt, 3000);
+    }
+}

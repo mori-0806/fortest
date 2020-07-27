@@ -1,0 +1,15 @@
+/*与（并且）&&
+ *或（或者）||
+ *非（取反）!
+ * 
+ * 
+ */
+public class Demo08Logic {
+	public static void main(String[] args) {
+		System.out.println(true && true);
+		System.out.println(true && false);
+		
+		
+	}
+
+}

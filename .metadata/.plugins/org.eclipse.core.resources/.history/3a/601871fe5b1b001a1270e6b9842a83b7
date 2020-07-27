@@ -1,0 +1,16 @@
+package demo;
+
+public class test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	  String w = 55f + "";
+		short a = 2;
+	    int b = 3;
+	   String c = w + a + b;
+	    System.out.println(c);
+	}
+
+	
+	
+}
